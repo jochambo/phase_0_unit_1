@@ -1,7 +1,11 @@
 # U1.W2: Chrome Dev Tools Challenge Reflection
 
 * Describe the Document Object Model? What about it makes sense to you? What doesn't? What seems good and bad about it?
-* How did using Chrome Web Tools to look at your site and a wordpress.com site compare?
+> It took a lot of discussion with Jennie to understand the DOM.  I think what I've finally come to understand is that the DOM is the logical next step now that web pages have moved beyond simple static HTML and CSS.  So the DOM comes in and tries to organize these four dimensional pages that include animations, videos, dynamic news feeds, crypto, etc.  Its a bit genius to call everything an object within a document and everything about those objects properties.  It leaves room for expansion like the need to add the "pause" and "play" states for video.  I think what could be bad in the short term is that as new objects are added, their associated properties could lag for a bit as programmers innovate the way we want to interact with them in the code.
+* How did using Chrome Web Tools to look at your site and a wordpress.com site compare?  
+>I've spent a bit of time with wordpress.com and somewhat understand the php idea of creating each page dynamically.  Wordpress sites are much more functional, serving up current pages, allowing users to search for specific posts, while my page is a simple post that is only accessible by a link or a direct address.  So needless to say, reviewing the html/css on my page was vastly easier.  Also, since a Wordpress site is created through their CMS you aren't as familiar with the code that goes into it.  This makes it much tougher to find that one line of CSS you need.
 * Did you find Chrome Web Tools fun, helpful, or a pain to work with?
-* Did you have an "aha" moments or were any concepts solidified?
+>I enjoyed learning more about Chrome tools since until now I've only used it to figure out how big a picture is or what color an element is.  The JavaScript elements were way over my head but I can see where we are headed in being able to interact with the DOM and see the results of our "experiments".
+* Did you have an "aha" moments or were any concepts solidified? "DOM" sounds a lot like "Damn" when you yell it loudly in your living room.  Seriously, realizing that there is a way to test changes in the browser beyond just simple HTML or CSS was amazing.
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+I also read through Google's Dev Tool Tutorial Page ("https://developer.chrome.com/devtools") just to solidify what each tab was useful for.
