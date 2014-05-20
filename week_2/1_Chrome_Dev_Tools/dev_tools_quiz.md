@@ -21,7 +21,7 @@
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!) - 
- >#0B0F11
+  >It's #0B0F11.
   * Tweak the background color to white.
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
@@ -33,9 +33,9 @@
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
-  >The slideshow image of Time's Square (92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png)
+  >The slideshow image of Time's Square (92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png).
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.  
-  >http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png 316KB 500px x 210px
+  >URL: http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png 316KB 500px x 210px
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated? 
 >Optimize the images to reduce their size by 885.9KiB (39% reduction).
