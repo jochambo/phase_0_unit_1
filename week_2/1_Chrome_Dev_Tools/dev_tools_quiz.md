@@ -1,6 +1,6 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-[Code School Screenshot](imgs/Screen\ Shot \2014-05-19\ at\ 5.51.08\ PM.png "Dev Tools Complete")
+[Code School Screenshot](http://github.com/jochambo/phase_0_unit_1/week_2/1_Chrome_Dev_Tools/imgs/report-card.png)
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
