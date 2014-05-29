@@ -1,25 +1,18 @@
-// I paired [by myself, with:] on this challenge.
+// I paired with Grace on this challenge.
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", "Grace", "Joey"];
+members.push("Mary");
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
-// 
-// 
-// 
-// 
-
-
+// Rather than getting bogged down on what the lines of code where going to do, I opted to just write code that passed the tests.  This took a lot of the pressure off of thinking big about the project.  No issues completing any of the learning competencies since the recommended JS tutorials were great prep for this challenge.
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
