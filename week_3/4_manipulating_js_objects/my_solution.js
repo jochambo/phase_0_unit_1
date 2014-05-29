@@ -12,28 +12,27 @@ var terah = {
   eyeColor: "brown"
 }
 
-
-
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
+var adam = {};
+adam.name = "Adam"
+terah.spouse = adam;
+adam.spouse = terah;
+terah.weight = 125;
+delete terah.eyeColor;
+terah.children = [];
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children;
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
+// There was a healthy amount of challenge to this section.  The biggest challenge is in not jumping ahead in the test code trying to solve problems that are not calling for solutions (and might not even be problems). So I took each pseudo-code line one by one and wrote the simple line of code that went with it.  I was a little tripped up by "delete terah.eyeColor;" since I wasn't sure how to remove a property.  I chose the array object for terah.children since I thought it would be good to add an index feature to that property.
 // 
-// 
-// 
-// 
-// 
-
-
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {
