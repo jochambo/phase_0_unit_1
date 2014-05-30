@@ -1,15 +1,22 @@
 // This is a solo challenge
 
 // Your mission description:
-// This game is a partial rip-off from a puzzle used to teach the concept of the Diffie-Hellman Key Exchange.  I think I read it first in the book Crypto by Steven Levy.
-// You have in your possession a shoe-box full of cash.  You also have a padlock and a key which will lock the outside of a box.  You are trapped on a desert island that is inaccessible to all except a single ferryman that visits everyday at noon.  If you can get the ferryman to deliver the box to your friend, he could use some of the jewels to get you saved from the island.  The only problem is that the ferryman is a thief who will steal anything that doesn't have a lock on it.  For one jewel though, he will deliver a locked box to your friend.  Your friend also has a lock and key.
+// This game is a partial rip-off from a puzzle used to teach the concept of the Diffie-Hellman Key Exchange.  I think 
+// I read it first in the book Crypto by Steven Levy.
+// You have in your possession a shoe-box full of cash.  You also have a padlock and a key which will lock the outside 
+// of a box.  You are trapped on a desert island that is inaccessible to all except a single ferryman that visits 
+// everyday at noon.  If you can get the ferryman to deliver the box to your friend, he could use some of the jewels 
+// to get you saved from the island.  The only problem is that the ferryman is a thief who will steal anything that 
+// doesn't have a lock on it.  For one jewel though, he will deliver a locked box to your friend.  Your friend also 
+// has a lock and key.
 // The challenge is to get your friend the treasure safely so that you can get off of the island.
 
 // Pseudocode
 // First the variables:
 
 // A box has money and locks and can be locked.
-// A person can be a ferryman, a friend, or you. Everyone can have money, the box and all but the ferryman can have a lock.
+// A person can be a ferryman, a friend, or you. Everyone can have money, the box and all but the ferryman can have a 
+// lock.
 // Now the moves: 
 
 // You lock the box with $100 with your lock.
@@ -260,11 +267,19 @@ console.log(person);
 
 // Reflection
 // 
-// Wow, I may have gotten out of hand with this.  I had my first experience of having a clear plan and wanting to finish a coding project.  I wanted to finish building this and it was liberating to see it finished.  
+// Wow, I may have gotten out of hand with this.  I had my first experience of having a clear plan and wanting to 
+// finish a coding project.  I wanted to finish building this and it was liberating to see it finished.  
 
-// I realized early on that I needed to be able to test that each character was acting appropriately and that the box was staying secure.  I actually figured out how to write tests after completing section 4 and they were indispensible to making this program run.  
-I think I finally understand when to use assignement (=) and "is the same as" (===)!  This is a big win for me.
-// Okay, so things I would like to change.  I would make specific locks for each character.  I would figure out how to make the tests run only when required (As it is I commented them out as I worked through the commands.).  I would have stuck to TDD.  There were a few times when I knew the command I needed to write, but I stopped and wrote the tests first.  And in keeping with the crypto theme, I would make the main character able to send multiple boxes out but still keep the other characters' keys unique.  I would also like to figure out how to D.R.Y. this code a bit more.
+// I realized early on that I needed to be able to test that each character was acting appropriately and that the box 
+// was staying secure.  I actually figured out how to write tests after completing section 4 and they were 
+// indispensible to making this program run.  
+// I think I finally understand when to use assignement (=) and "is the same as" (===)!  This is a big win for me.
+// Okay, so things I would like to change.  I would make specific locks for each character.  I would figure out how to 
+// make the tests run only when required (As it is I commented them out as I worked through the commands.).  I would 
+// have stuck to TDD.  There were a few times when I knew the command I needed to write, but I stopped and wrote the 
+// tests first.  And in keeping with the crypto theme, I would make the main character able to send multiple boxes out 
+// but still keep the other characters' keys unique.  I would also like to figure out how to D.R.Y. this code a bit 
+// more.
 // Finally, I would love to turn this into an HTML/CSS document.  Time may have gotten the better of me though.
 // 
 // 
