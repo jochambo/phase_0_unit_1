@@ -99,9 +99,6 @@ var removeLock = function(x) {
 	if (x === person.ferryman) {
 		console.log ("You don't have a key, ferryman!");
 	} 
-	// else if (x.lock > 0) {
-	// 	"Your key does not open this lock."
-	// } 
 	else {
 		x.lock = x.lock + 1;
 		boxState.lock = boxState.lock - 1;
