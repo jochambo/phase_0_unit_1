@@ -79,50 +79,9 @@ var talentAgency = {
 var clientListAd = [adamSandler, kristenBell, jimCarrey, clintEastwood, morganFreeman, talentAgency];
 
 //  6.  Your Reflection:
-
-
-// GPS 1.2 - JavaScript
-
-// YOUR FULL NAMES:
-//  1.
-//  2.
-
-
-// 0. "YOU SIGNED... WHO?!"
+GPS 1.2 was tough not because of the coding, but because this was two people fighting through the problem solving with very limited viewports into the other persons world or mind.  Google Hangouts proved to be pretty useful towards the end when we realized that we could share our terminal or console windows.  Stypi was useful for crafting the code.  
+The problem for pairing though was that it is difficult to manage expectations when also managing three or four open windows, multiple browser tabs, etc.  We finally caught on to verbalizing where we were looking and what we were thinking.  The navigator and driver roles switched somewhat more fluidly this time, though we did good about vocalizing when one of us was taking the keyboard.
+I did learn a lot more about Constructors, though I'm still getting a bit hung up on some of the syntax.
 
 
 
-
-// 1. "Here they Come!"
-
-
-
-
-
-// 2. "TIME IS MONEY!"
-
-//YOUR CODE HERE!
-
-var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
-shooterMcGavin.constructor === Client;
-shooterMcGavin.age === 48;
-shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to what I say.";
-
-
-
-
-
-// 3. "SHOW 'EM OFF!"
-
-
-
-
-
-// 4. "But wait, there's more!"
-
-
-
-// 5.  ** BONUS **
-
-
-//  6.  Your Reflection:
