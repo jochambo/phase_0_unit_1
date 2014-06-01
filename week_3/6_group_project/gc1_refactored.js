@@ -56,9 +56,11 @@ var median = function(array) {
 // }
 
 //Reflection:
-I enjoyed parts of this challenge, namely, working in a group to solve problems.  I think our group was great at sticking to the rules of the challenge and respecting the process of user stories, pseudocoding, coding, and refactoring.  I personally enjoyed seeing the initial code solution and writing the user stories to what was given to me.  
-What I did not enjoy was refactoring.  I'm not at all comfortable with JavaScript syntax and found myself very frustrated at being stuck working through that experimental code above.  I knew what I wanted to do to make the code cleaner but couldn't find the answers I needed to make the code work.
-I will figure it out, but unfortunately not it time for this challenge.  I did manage to realize that we needed a way to display the results of our functions in a cleaner manner and added the return statements.
-- What was this experience like? 
-- Was your group successful in passing the tests? 
-- What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
+// - What was this experience like? 
+// I enjoyed parts of this challenge, namely, working in a group to solve problems.  I think our group was great at sticking to the rules of the challenge and respecting the process of user stories, pseudocoding, coding, and refactoring.  I personally enjoyed seeing the initial code solution and writing the user stories to what was given to me.  
+// - What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
+// What I did not enjoy was refactoring.  I'm not at all comfortable with JavaScript syntax and found myself very frustrated at being stuck working through that experimental code above.  I knew what I wanted to do to make the code cleaner but couldn't find the answers I needed to make the code work.
+// I will figure it out, but unfortunately not it time for this challenge.  I did manage to realize that we needed a way to display the results of our functions in a cleaner manner and added the console.log statements with the return statements.
+// - Was your group successful in passing the tests? 
+// I'm not sure if I'm supposed to be running the tests given the instructions, so I'll update this question later if necessary.
+
