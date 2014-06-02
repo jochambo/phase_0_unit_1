@@ -50,7 +50,7 @@ Show current status of the git repository, including if there are any uncommited
 4) Navigate to your new directory and run "git init".  You should get a message saying "Initialized empty Git repository in <Directory path>."
 4) You can now create and use this repository and everything in it will be watched by git.  When you are ready to add new files use "git add <filename>".  This will stage your changes for committing.
 5) When you are ready to commit, use "git commit -m "<Add your commit message here>".  Git has now taken a snapshot of your repository locally that you can return to if you need to later.
-6) To push these changes to your GitHub repository, you will first need to establish the link to your remote repository you created in step 2.  Use "git remote add origin https://github.com/<username>/<repository name>".  Run "git remote -v" to see the connection between the origin and the remote.  You should see two connections, one labelled "fetch" and the other "push".
+6) To push these changes to your GitHub repository, you will first need to establish the link to your remote repository you created in step 2.  Use "git remote add origin https://github.com/"username"/"repository name"".  Run "git remote -v" to see the connection between the origin and the remote.  You should see two connections, one labelled "fetch" and the other "push".
 7) All that's left is to push your local repository.  Use "git push".  You should see a few lines saying "Writing objects: 100%...to https://github.com...".  Congratulations!  Note:  Be aware that if there have been any changes to the remote that precede the changes to your local directory, Git is going to want you to pull those changes first.  See Release 5 below.
 
 - Fetch changes
