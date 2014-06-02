@@ -256,10 +256,98 @@ console.log(person);
 // 	)
 
 // Refactored Code
+var boxState = {
+	money: 100,
+	lock: 0
+};
+var locked = false;
 
 
+function Person(title, money, lock, box){
+	this.title 					= title;
+	this.money 					= money;
+	this.lock 					= lock;
+	this.box 						= box;
+	this.giveToFerry 		= giveToFerry;
+	this.getFromFerry 	= getFromFerry;
+	this.addLock 				= addLock;
+	this.removeLock 		= removeLock;
+}
 
+var ferryman = new Person("ferryman", 0, 0, false);
+var friend = new Person("friend", 1, 1, false);
+var me = new Person("me", 2, 1, true);
 
+var giveToFerry = function() {
+	if (locked === true) {
+		boxState.money = 0;
+		console.log("The ferryman has stolen your money!");
+	} else if (this.title === "me"){
+		ferryman.box = true;
+		me.box = false;
+		me.money -= 1;
+		ferryman.money += 1;
+	} else {
+		ferryman.box = true;
+		friend.box = false;
+		friend.money -= 1;
+		ferryman.money += 1;
+	}
+};
+var getFromFerry = function() {
+	if (this.title === me){
+		ferryman.box = false;
+		me.box = true;
+	} else {
+		ferryman.box = false;
+		friend.box = true;
+	}
+};
+var addLock = function() {
+	if (this.title === me && me.lock === 1) {
+		boxState.lock = boxState.lock + 1;
+		locked === true;
+		me.lock = me.lock -= 1;
+	} else if (this.title === friend && friend.lock === 1) {
+		boxState.lock = boxState.lock + 1;
+		locked === true;
+		friend.lock = friend.lock -= 1;
+	} else {
+		console.log("You don't have a lock!");
+	}
+};
+var removeLock = function() {
+	if (this.title === ferryman) {
+		console.log ("You don't have a key, ferryman!");
+	} 
+	else {
+		this.title.lock = this.title.lock + 1;
+		boxState.lock = boxState.lock - 1;
+	}
+	if (boxState.lock === 0) {
+		locked = false;
+	}
+	if (friend.box === true && boxState.lock === 0) {
+		friend.money = 100;
+		boxState.money = 0;
+	}
+};
+var transferMoney = function(from, to, amount){
+	to = from - amount;
+};
+
+console.log(me);
+me.addLock();
+me.giveToFerry();
+friend.getFromFerry();
+friend.addLock();
+friend.giveToFerry();
+me.getFromFerry();
+me.removeLock();
+me.giveToFerry();
+friend.getFromFerry();
+friend.removeLock();
+console.log(friend);
 
 
 // Reflection
@@ -277,8 +365,7 @@ console.log(person);
 // tests first.  And in keeping with the crypto theme, I would make the main character able to send multiple boxes out 
 // but still keep the other characters' keys unique.  I would also like to figure out how to D.R.Y. this code a bit 
 // more.
-// Finally, I would love to turn this into an HTML/CSS document.  Time may have gotten the better of me though.
-// 
-// 
-// 
+// Finally, I would love to turn this into an HTML/CSS document.  Unfortunately, I'm not sure that the refactored code 
+// is running properly.  I'm going to test it some more over the next few days to be sure.  Time may have gotten the better 
+// of me though.
 // 
